@@ -1,10 +1,10 @@
 import React from 'react';
-import photo1 from '../photo1.png';
-import photo2 from '../photo2.png';
-import photo3 from '../photo3.png';
-import photo4 from '../photo4.png';
-import photo5 from '../photo5.png';
-import photo6 from '../photo6.png';
+import photo1 from '../images/photo1.png';
+import photo2 from '../images/photo2.png';
+import photo3 from '../images/photo3.png';
+import photo4 from '../images/photo4.png';
+import photo5 from '../images/photo5.png';
+import photo6 from '../images/photo6.png';
 
 function Images () {
     return(

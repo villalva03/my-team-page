@@ -1,38 +1,362 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.team {
+  /* Team */
+  position: relative; 
+  width: 1440px;
+  height: 1489px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.theCreativeCrew {
+  /* The creative crew */
+  position: absolute;
+  width: 278px;
+  height: 47px;
+  left: 243px;
+  top: 110px;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  color: #000000;
+}
+
+.whoWeAre {
+  /* Who we are */
+  position: absolute;
+  width: 130px;
+  height: 27px;
+  left: 780px;
+  top: 110px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.weAreTeam {
+  /* We are team of creatively diverse. driven. 
+  innovative individuals working in various 
+  locations from the world. */
+  position: absolute;
+  width: 339px;
+  height: 87px;
+  left: 780px;
+  top: 147px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.photo1, .photo3, .photo4, .photo6 {
+  position: absolute;
+  width: 238px;
+  height: 341px;
+}
+
+.photo2, .photo5{
+  position: absolute;
+  width: 238px;
+  height: 347px;
+}
+
+.name1, .name2, .name3, .name4, .name5, .name6 {
+  /* Bill Mahoney */ /* Saba Cabrera */ /* Shae Le */
+  /* Skylah Lu */ /* Griff Richards */ /* Stan John */
+  position: absolute;
+  width: 117px;
+  height: 27px;
+  /* left: 240px; */
+  top: 340px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+  color: #000000;
+}
+
+.team1, .team2, .team3, .team4, .team5, .team6 {
+  /* Product owner */ /* Art director */ /* Tech Lead */
+  /* UX Designer */ /* Developer */ /* DEverloper */
+  position: absolute;
+  width: 110px;
+  height: 16px;
+  left: 205px;
+  top: 35px;
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+  text-transform: uppercase;
+  color: #000000;
+  transform: rotate(90deg);
+}
+
+.maskGroup1 {
+  /* Mask Group 1 */
+  position: absolute;
+  width: 238px;
+  height: 341px;
+  left: 240px;
+  top: 330px;
+}
+
+.maskGroup2 {
+  /* Mask Group 2 */
+  position: absolute;
+  width: 238px;
+  height: 347px;
+  left: 571px;
+  top: 429px;
+}
+
+.maskGroup3 {
+  /* Mask Group 3 */
+  position: absolute;
+  width: 238px;
+  height: 341px;
+  left: 901px;
+  top: 330px;  
+}
+
+.maskGroup4 {
+  /* Mask Group 4 */
+  position: absolute;
+  width: 237px;
+  height: 341px;
+  left: 241px;
+  top: 845px;
+}
+
+.maskGroup5 {
+  /* Mask Group 5 */
+  position: absolute;
+  width: 238px;
+  height: 347px;
+  left: 571px;
+  top: 944px;
+}
+
+.maskGroup6 {
+  /* Mask Group 6 */
+  position: absolute;
+  width: 237px;
+  height: 341px;
+  left: 902px;
+  top: 845px;
+}
+
+.mail {
+  /* Your name @ DevChallenges.io */
+  position: absolute;
+  width: 250px;
+  height: 17px;
+  left: 601px;
+  top: 1442px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #A9A9A9;
+}
+
+@media screen and (max-width: 1024px){
+  .team {
+    /* background: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    position: relative; 
+    width: 375px;
+    height: 1409px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .theCreativeCrew {
+    /* The creative crew */
+    position: absolute;
+    width: 278px;
+    height: 47px;
+    left: 12px;
+    top: 31px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    color: #000000;
   }
+
+  .whoWeAre {
+    /* Who we are */
+    position: absolute;
+    width: 127px;
+    height: 27px;
+    left: 12px;
+    top: 136px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+  
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+  }
+  
+  .weAreTeam {
+    /* We are team of creatively diverse. driven. 
+    innovative individuals working in various 
+    locations from the world. */
+    position: absolute;
+    width: 266px;
+    height: 87px;
+    left: 12px;
+    top: 193px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  .photo1, .photo2, .photo3, .photo4, .photo5, .photo6 {
+    position: absolute;
+    width: 138px;
+    height: 225px;
+  }
+
+  .name1, .name2, .name3, .name4, .name5, .name6 {
+    /* Bill Mahoney */ /* Saba Cabrera */ /* Shae Le */
+    /* Skylah Lu */ /* Griff Richards */ /* Stan John */
+    position: absolute;
+    width: 128px;
+    height: 18px;
+    /* left: 240px; */
+    top: 221px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+    color: #000000;
+  }
+  
+  .team1, .team2, .team3, .team4, .team5, .team6 {
+    /* Product owner */ /* Art director */ /* Tech Lead */
+    /* UX Designer */ /* Developer */ /* DEverloper */
+    position: absolute;
+    width: 130px;
+    height: 11px;
+    left: 88px;
+    top: 50px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #000000;
+    transform: rotate(90deg);
+  }
+  
+  .maskGroup1 {
+    /* Mask Group 1 */
+    position: absolute;
+    width: 138px;
+    height: 209px;
+    left: 19px;
+    top: 318px;
+  }
+
+  .maskGroup2 {
+    /* Mask Group 2 */
+    position: absolute;
+    width: 138px;
+    height: 209px;
+    left: 201px;
+    top: 366px;
+  }
+
+  .maskGroup3 {
+    /* Mask Group 3 */
+    position: absolute;
+    width: 138px;
+    height: 209px;
+    left: 19px;
+    top: 619px;  
+  }
+  
+  .maskGroup4 {
+    /* Mask Group 4 */
+    position: absolute;
+    width: 138px;
+    height: 209px;
+    left: 201px;
+    top: 667px;
+  }
+  
+  .maskGroup5 {
+    /* Mask Group 5 */
+    position: absolute;
+    width: 138px;
+    height: 209px;
+    left: 19px;
+    top: 920px;
+  }
+  
+  .maskGroup6 {
+    /* Mask Group 6 */
+    position: absolute;
+    width: 138px;
+    height: 209px;
+    left: 201px;
+    top: 968px;
+  }
+  
+  .mail {
+    /* Your name @ DevChallenges.io */
+    position: absolute;
+    width: 240px;
+    height: 18px;
+    left: 70px;
+    top: 1322px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    color: #A9A9A9;
+  } 
 }
